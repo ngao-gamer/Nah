@@ -24,7 +24,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        Image = "http://www.roblox.com/asset/?id=6687666356",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
-       Corner = true,
+     )  Corner = true,
        Stroke = false,
        StrokeColor = Color3.fromRGB(255, 0, 0)
       })
@@ -34,7 +34,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "fisch script"})
      local Tab3o = MakeTab({Name = "mm2 script"})
      local Tab4o = MakeTab({Name = "coming soon"})
-     local Tab5o = MakeTab({Name = "info"})
 
 
 ------- BUTTON
@@ -160,13 +159,5 @@ AddButton(Tab3o, {
      Name = "omg  hub",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ORG-hubb/ORG/main/ORG-Hub.lua"))()
-  end
-  })
-
-AddButton(Tab5o, {
-     Name = "it just a new script can have an error i will
-fix it soon",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurdervssheriff"))()
   end
   })
