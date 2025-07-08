@@ -1,5 +1,6 @@
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
+
        local Window = MakeWindow({
          Hub = {
          Title = "vietnamese hub",
@@ -14,7 +15,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
-       Incorrectkey = "The key is incorrect",
+       Incdorrectkey = "The key is incorrect",
        CopyKeyLink = "Copied to Clipboard"
       }
     }
@@ -124,6 +125,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
   end
   })
   
+AddButton(Tab1o, {
+     Name = "redz Hub",
+    Callback = function()
+	  local Settings = {
+    JoinTeam = "Pirates"; -- Pirates / Marines
+    Translator = true;   -- true / false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)"))()
+  end
+  })
+
   AddButton(Tab2o, {
      Name = "anti cheat 1",
     Callback = function()
